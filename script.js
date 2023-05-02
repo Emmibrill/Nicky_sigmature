@@ -23,7 +23,7 @@ navToggler.addEventListener('click', () => {
     navList.classList.toggle('navActive')
 
 
-    })
+    
 })
 
 Array.from(nav_list).forEach(nav => {
