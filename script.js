@@ -10,7 +10,7 @@ const promptCloseButton = document.querySelector('.prompt-close_button');
 window.addEventListener('load', () => {
     document.querySelector('.preloader').style.display = 'none'  
 })
-window.addEventListener('load', (
+
 
 
 
