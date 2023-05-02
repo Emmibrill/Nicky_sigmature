@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pageUp">
+        up
+    </div>
+
+    <div class="preloader">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+    </div>
+
+    <!---the navigation sectoin  for catalogue page-->
+    <section class="nav__section">
+        <nav class="nav__bar">
+            <div class="hambugger" aria-controls="closed">
+                <span class="dash one"></span>
+                <span class="dash two"></span>
+                <span class="dash three"></span>
+            </div>
+
+            <div class="logo__container">
+                <div class="logo">
+                    <a href="index.html"><h1>nicky signature</h1></a>
+                </div>
+            </div>
+        
+            <ul class="nav__list">
+                <li class="nicky"><a class="nick" href="index.html">Nicky signature</a></li>
+                <li><a href="index.html" class="list">home</a></li>
+                <li><a href="#" class="list">services</a></li>
+                <li><a href="catalogue.html" class="list active">catalogue</a></li>
+                <li><a href="#" class="list">contact</a></li>
+            </ul>
+        
+        </nav>
+    </section>
+
+    <!---the cataloge section-->
+    <section class="catalogue_secton">
+        <div class="catalogueSidePane">
+            <div class="sidePaneSection active" data-target = '#sectionOneContent'>
+                <img class="paneImage" src="IMG3.jpg" alt="">
+                <h1 class="paneTab">section one</h1>
+            </div>
+            <div class="sidePaneSection" data-target = '#sectiontwoContent'>
+                <img class="paneImage" src="MEN3.jpg" alt="">
+                <h1 class="paneTab">section two</h1>
+            </div>
+            <div class="sidePaneSection" data-target = '#sectionthreeContent'>
+                <img class="paneImage" src="BAG7.jpg" alt="">
+                <h1 class="paneTab">section three</h1>
+            </div>
+            <div class="sidePaneSection" data-target = '#sectionfourContent'>
+                <img class="paneImage" src="IMG4.jpg" alt="">
+                <h1 class="paneTab">section four</h1>
+            </div>
+            <div class="sidePaneSection" data-target = '#sectionfiveContent'>
+                <img class="paneImage" src="IMG5.jpg" alt="">
+                <h1 class="paneTab">section five</h1>
+            </div>
+            <div class="sidePaneSection" data-target = '#sectionsixContent'>
+                <img class="paneImage" src="IMG3.jpg" alt="">
+                <h1 class="paneTab">section six</h1>
+            </div>
+        </div>
+    </section>
+    <section class="displayContent">
+        <div class="content active" data-content id="sectionOneContent">
+            <!--
+            <div class="plan">
+                <div class="plan__side plan__side--front">
+                    <div class="plan__image plan__image--1">
+                        <img src="IMG1.jpg" class="img-fluid" />
+                    </div>
+                    <h4 class="plan__heading plan__heading--1"> nicky signature
+                    </h4>
+                    <div class="plan__bullets">
+                       <p>$100,000</p>
+                    </div> 
+                </div>
+                <div class="plan__side plan__side--back plan__side--back-1"> 
+                    <div class="plan__button">
+                        <div class="plan__cost-box">
+                            <p class="plan__cost-value">$10,000</p>
+                        </div>
+                        <a href="#" class="btn">Shop with us</a>
+                    </div>
+                </div>
+            </div>
+            -->
+
+            <div class="imgWrapper">
+                <img  src="IMG3.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">1</div>
+            </div>
+            <div class="imgWrapper">
+                <img  src="IMG1.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">2</div>
+            </div>
+            <div class="imgWrapper">
+                <img  src="IMG2.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">3</div>
+            </div>
+            <div class="imgWrapper">
+                <img  src="IMG4.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">4</div>
+            </div>
+            <div class="imgWrapper">
+                <img  src="IMG5.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">5</div>
+            </div>
+            <div class="imgWrapper">
+                <img  src="IMG3.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">6</div>
+            </div>
+            <div class="imgWrapper">
+                <img  src="IMG1.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">7</div>
+            </div>
+
+            <div class="imgWrapper Test">
+                <img  src="IMG1.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">7</div>
+            </div>
+
+        </div>
+
+        <div class="content" data-content id="sectiontwoContent">
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async"  src="MEN1.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">1</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async"  src="MEN2.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">2</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async"  src="MEN3.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">3</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async"  src="MEN4.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">4</div>
+            </div>
+            <!--<div class="imgWrapper">
+                <img  src="IMG4.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">5</div>
+            </div>
+            <div class="imgWrapper">
+                <img  src="IMG3.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">6</div>
+            </div>
+            <div class="imgWrapper">
+                <img  src="IMG1.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">7</div>
+            </div>
+            --->
+        </div>
+
+        <div class="content" data-content id="sectionthreeContent">
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async"  src="BAG1.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">1</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG2.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">2</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG3.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">3</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG4.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">4</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG5.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">5</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG6.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">6</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG7.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">7</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG8.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">8</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG9.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">9</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG10.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">10</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="BAG11.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">11</div>
+            </div>
+        </div>
+
+        <div class="content" data-content id="sectionfourContent">
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="IMG3.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">1</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="IMG1.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">2</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="IMG2.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">3</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="IMG4.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">4</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="IMG5.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">5</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="IMG3.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">6</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="IMG1.jpg" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">7</div>
+            </div>
+        </div>
+
+        <div class="content" data-content id="sectionfiveContent">
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="black-mustang.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">1</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="navy-range.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">2</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="black-skyline.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">3</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="blue-bmw.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">4</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="grey-defender.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">5</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="grey-gwagon.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">6</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="yellow-porsche.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">7</div>
+            </div>
+        </div>
+
+        <div class="content" data-content id="sectionsixContent">
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="yellow-porsche.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">1</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="red-dodge.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">2</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="black-mustang.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">3</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="black-skyline.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">4</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="blue-bmw.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">5</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="grey-defender.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">6</div>
+            </div>
+            <div class="imgWrapper">
+                <img preload="lazy" decoding="async" src="grey-gwagon.png" alt="">
+                <button class="orderButton">shop with us</button>
+                <div class="numberTag">7</div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="promptSection">
+        <div class="promptBox">
+            <div class="prompt_logo">
+                nicky signature
+            </div>
+            <div class="prompt-details">
+                <div class="prompt_image">
+                    <img src="BAG1.jpg" alt="">
+                </div>
+                <div class="prompt-services">
+                    <ul>
+                        <li class="service-title"><h2 class="services">our services include</h2></li>
+                        <li class="service-title">fashion designer</li>
+                        <li class="service-title">quality frabric</li>
+                        <li class="service-title">fashioin accesories</li>
+                        <li class="service-title">stoning of fabrics</li>
+                        <li class="service-title">fashion school</li>
+                        <li class="service-title">quality bags</li>
+                        <li class="service-title">classic stones</li>
+                        <li class="service-title">embroidering</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="prompt-button" href="">contact us</a>
+            <svg class="prompt-close_button" xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="purple" 
+            fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/>
+            <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
