@@ -21,8 +21,8 @@ navToggler.addEventListener('click', () => {
         navToggler.setAttribute('aria-controls', 'open')
     }else{navToggler.setAttribute('aria-controls', 'closed')}
     navList.classList.toggle('navActive')
-    window.addEventListener('scroll', () => {
-        navList.classList.remove('navActive') 
+
+
     })
 })
 
